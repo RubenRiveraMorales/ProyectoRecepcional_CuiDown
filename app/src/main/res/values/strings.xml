@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CuiDown</string>
+    <string name="nav_open">Open Navigation Drawer</string>
+    <string name="nav_close">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Por_el_momento_no_hay_alarmas_disponibles">Por el momento no hay alarmas disponibles</string>
+    <string name="desarrolladores">Rubén y Jhair</string>
+    <string name="Sin_usuario">Por el momento no se han registrado usuarios nuevos</string>
+
+</resources>

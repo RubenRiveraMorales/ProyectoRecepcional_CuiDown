@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "878879513334",
+    "project_id": "tesisapp-25393",
+    "storage_bucket": "tesisapp-25393.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878879513334:android:4f4c964f71a14e44c3aad7",
+        "android_client_info": {
+          "package_name": "uv.tc.tesisapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxNM6dNMGVuLx-2vSCRvU9SRBuyvJlqcQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

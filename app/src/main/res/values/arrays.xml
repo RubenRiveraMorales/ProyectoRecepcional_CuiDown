@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="roles">
+        <item>Tutor</item>
+        <item>Padre</item>
+        <item>Maestro</item>
+        <item>Familiar</item>
+        <item>Otro</item>
+    </string-array>
+
+    <string-array name="generos">
+        <item>Sexo</item>
+        <item>Masculino</item>
+        <item>Femenino</item>
+    </string-array>
+
+    <string-array name="actividades">
+        <item>Seleccionar actividad</item>
+        <item>Arreglarse</item>
+        <item>Bañarse</item>
+        <item>CepillarDientes</item>
+        <item>Comer</item>
+        <item>LavarManos</item>
+        <item>Peinarse</item>
+    </string-array>
+
+
+</resources>

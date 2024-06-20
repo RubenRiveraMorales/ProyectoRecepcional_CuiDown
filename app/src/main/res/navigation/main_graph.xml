@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/configuracionFragment"
+        android:name="uv.tc.tesisapp.ConfiguracionFragment"
+        android:label="fragment_configuracion"
+        tools:layout="@layout/fragment_configuracion" />
+    <fragment
+        android:id="@+id/estadisticasFragment"
+        android:name="uv.tc.tesisapp.EstadisticasFragment"
+        android:label="fragment_estadisticas"
+        tools:layout="@layout/fragment_estadisticas" >
+        <action
+            android:id="@+id/action_estadisticasFragment_to_usuarioFragment"
+            app:destination="@id/usuarioFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="uv.tc.tesisapp.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_estadisticasFragment"
+            app:destination="@id/estadisticasFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_editarAlarmaDialog"
+            app:destination="@id/editarAlarmaDialog" />
+    </fragment>
+    <dialog
+        android:id="@+id/editarAlarmaDialog"
+        android:name="uv.tc.tesisapp.EditarAlarmaDialog"
+        android:label="fragment_editar_alarma_dialog"
+        tools:layout="@layout/fragment_editar_alarma_dialog" />
+    <fragment
+        android:id="@+id/perfilFragment"
+        android:name="uv.tc.tesisapp.PerfilFragment"
+        android:label="fragment_perfil"
+        tools:layout="@layout/fragment_perfil" >
+        <action
+            android:id="@+id/action_perfilFragment_to_configuracionFragment"
+            app:destination="@id/configuracionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/recompensasFragment"
+        android:name="uv.tc.tesisapp.RecompensasFragment"
+        android:label="fragment_recompensas"
+        tools:layout="@layout/fragment_recompensas" >
+        <action
+            android:id="@+id/action_recompensasFragment_to_perfilFragment"
+            app:destination="@id/perfilFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/usuarioFragment"
+        android:name="uv.tc.tesisapp.UsuarioFragment"
+        android:label="fragment_usuario"
+        tools:layout="@layout/fragment_usuario" >
+        <action
+            android:id="@+id/action_usuarioFragment_to_recompensasFragment"
+            app:destination="@id/recompensasFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/editarAlarmaFragment"
+        android:name="uv.tc.tesisapp.EditarAlarmaDialog"
+        android:label="Editar Alarma"
+        tools:layout="@layout/fragment_editar_alarma_dialog" />
+
+</navigation>
